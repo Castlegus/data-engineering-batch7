@@ -111,6 +111,7 @@ default_timezone = Asia/Seoul
 
 #### Airflow를 재설정
 
+airflow 사용자로 아래 명령을 수행해야 한다
 ```
 AIRFLOW_HOME=/var/lib/airflow airflow db init
 ```
