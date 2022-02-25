@@ -122,6 +122,7 @@ AIRFLOW_HOME=/var/lib/airflow airflow db init
 Airflow 웹서버와 스케줄러를 백그라운드 서비스로 사용하려면 다음 명령을 따라하여 두 개를 서비스로 등록한다. 
 다음 명령들은 <b>ubuntu</b> 계정에서 실행되어야한다. 만일 "[sudo] password for airflow: " 메시지가 나온다면 지금 airflow 계정을 사용하고 있다는 것으로 이 경우 "exit" 명령을 실행해서 ubuntu 계정으로 돌아온다
 
+ubunut 계정으로 아래를 수행
 
 #### 웹서버와 스케줄러를 각기 서비스로 등록
 
